@@ -45,6 +45,7 @@
 *.iml
 *.ipr
 *.iws
+*.class
 .idea/
 
 # Project Stuff
@@ -55,3 +56,5 @@
 
 # Atlassian Stuff
 /atlassian-ide-plugin.xml
+/jmal-bukkit/target/
+/jmal-core/target/
