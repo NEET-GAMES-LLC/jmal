@@ -1,4 +1,4 @@
-package com.neetgames.jmal;
+package jmal;
 
 import java.util.UUID;
 

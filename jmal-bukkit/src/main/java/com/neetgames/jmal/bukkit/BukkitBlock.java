@@ -1,6 +1,6 @@
 package com.neetgames.jmal.bukkit;
 
-import com.neetgames.jmal.block.BlockWrapper;
+import jmal.block.BlockWrapper;
 import org.bukkit.block.Block;
 import org.jetbrains.annotations.NotNull;
 

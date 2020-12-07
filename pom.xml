@@ -10,6 +10,7 @@
     <version>0.01.00-SNAPSHOT</version>
     <modules>
         <module>jmal-bukkit</module>
+        <module>jmal-core</module>
     </modules>
     <dependencies>
         <dependency>

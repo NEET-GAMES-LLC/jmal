@@ -25,7 +25,7 @@
         </dependency>
         <dependency>
             <groupId>com.neetgames</groupId>
-            <artifactId>jmal</artifactId>
+            <artifactId>jmal-core</artifactId>
             <version>0.01.00-SNAPSHOT</version>
         </dependency>
     </dependencies>

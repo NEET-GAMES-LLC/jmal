@@ -1,4 +1,4 @@
-package com.neetgames.jmal.block;
+package jmal.block;
 
 public interface Block {
     int getX();
