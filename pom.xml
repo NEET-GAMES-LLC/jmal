@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
     <version>0.01.00-SNAPSHOT</version>
     <modules>
-        <module>jmal-bukkit</module>
         <module>jmal-core</module>
+        <module>jmal-bukkit</module>
     </modules>
     <dependencies>
         <dependency>

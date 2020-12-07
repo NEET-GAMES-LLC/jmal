@@ -3,7 +3,7 @@ package jmal.player;
 import org.jetbrains.annotations.NotNull;
 
 public abstract class PlayerWrapper<T> implements Player {
-    private final @NotNull T player;
+    protected final @NotNull T player;
 
     public PlayerWrapper(@NotNull T player) {
         this.player = player;

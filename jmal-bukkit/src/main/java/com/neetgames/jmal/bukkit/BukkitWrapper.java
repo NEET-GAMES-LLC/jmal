@@ -1,7 +1,9 @@
 package com.neetgames.jmal.bukkit;
 
 import jmal.block.BlockWrapper;
+import jmal.player.PlayerWrapper;
 import org.bukkit.block.Block;
+import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
 public class BukkitWrapper {
@@ -9,7 +11,15 @@ public class BukkitWrapper {
         return new BukkitBlock<>(block);
     }
 
-    public static Block unwrapBlock(@NotNull BukkitBlock<Block> bukkitBlock) {
+    public static @NotNull Block unwrapBlock(@NotNull BukkitBlock<Block> bukkitBlock) {
         return bukkitBlock.getBlock();
+    }
+
+    public static @NotNull PlayerWrapper<Player> wrapPlayer(@NotNull Player player) {
+        return new BukkitPlayer<>(player);
+    }
+
+    public static @NotNull Player unwrapPlayer(@NotNull PlayerWrapper<Player> playerWrapper) {
+        return playerWrapper.getPlayer();
     }
 }
