@@ -6,7 +6,11 @@
 
     <groupId>com.neetgames</groupId>
     <artifactId>jmal</artifactId>
+    <packaging>pom</packaging>
     <version>0.01.00-SNAPSHOT</version>
+    <modules>
+        <module>jmal-bukkit</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.jetbrains</groupId>
