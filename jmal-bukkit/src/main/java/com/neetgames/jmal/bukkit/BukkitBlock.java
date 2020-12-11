@@ -1,7 +1,7 @@
 package com.neetgames.jmal.bukkit;
 
-import jmal.block.BlockWrapper;
-import jmal.location.World;
+import com.neetgames.jmal.core.block.BlockWrapper;
+import com.neetgames.jmal.core.location.World;
 import org.bukkit.block.Block;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

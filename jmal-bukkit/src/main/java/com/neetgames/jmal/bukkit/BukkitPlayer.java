@@ -1,6 +1,6 @@
 package com.neetgames.jmal.bukkit;
 
-import jmal.player.PlayerWrapper;
+import com.neetgames.jmal.core.player.PlayerWrapper;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 

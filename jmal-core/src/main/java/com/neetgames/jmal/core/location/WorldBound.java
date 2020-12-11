@@ -1,4 +1,4 @@
-package jmal.location;
+package com.neetgames.jmal.core.location;
 
 import org.jetbrains.annotations.Nullable;
 

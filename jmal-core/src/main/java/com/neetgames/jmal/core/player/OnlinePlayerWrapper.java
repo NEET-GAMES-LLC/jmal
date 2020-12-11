@@ -1,4 +1,4 @@
-package jmal.player;
+package com.neetgames.jmal.core.player;
 
 import org.jetbrains.annotations.NotNull;
 

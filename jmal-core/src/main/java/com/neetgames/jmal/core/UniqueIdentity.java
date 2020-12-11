@@ -1,4 +1,4 @@
-package jmal;
+package com.neetgames.jmal.core;
 
 import org.jetbrains.annotations.NotNull;
 
