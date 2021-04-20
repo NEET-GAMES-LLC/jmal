@@ -25,8 +25,8 @@
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
-            <artifactId>minecraft-server</artifactId>
-            <version>1.16.4-SNAPSHOT</version>
+            <artifactId>spigot-api</artifactId>
+            <version>1.16.5-R0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>
